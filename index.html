@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean-Trips</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mqueries.css">
+    <link rel="stylesheet" href="animationStyle.css">
+
+</head>
+
+<body>
+
+
+    <div class="wrapper">
+
+        <!-- Animation -->
+        <div class="onload-animation-container">
+
+
+            <div class="onload-animation-container-wrapper">
+
+                <!-- spinner Loading -->
+                <div class="loader-4">
+                    <div class="loading">
+
+
+                        <div class="pulse"></div>
+                        <h2>Loading...</h2>
+
+                        <style>
+                            .pulse {
+                                width: 22.4px;
+                                height: 22.4px;
+                                border-radius: 50%;
+                                background: #17bec7;
+                                box-shadow: 0 0 0 0 #17bec788;
+                                background: #ffffff;
+                                box-shadow: 0 0 0 0 #ffffff88;
+                                animation: pulse-c6zlskmd 1s infinite;
+                            }
+
+                            @keyframes pulse-c6zlskmd {
+                                100% {
+                                    box-shadow: 0 0 0 33.6px #0000;
+                                }
+                            }
+                        </style>
+
+                    </div>
+                </div>
+                <!-- /spinner Loading -->
+            </div>
+
+
+        </div>
+        <!-- /Animation -->
+
+        <!-- hero-bg-temp -->
+        <div class="hero-bg-temp"></div>
+        <!-- hero-bg-temp -->
+
+        <!-- Content -->
+        <div class="website-content">
+
+            <!-- HERO -->
+            <div class="hero">
+
+                <nav class="navbar">
+                    <div class="brand">
+                        <span class="bold-font">Ocean</span>&nbsp;<span class="thin-font">Trip</span>
+                    </div>
+                    <ul class="nav-links">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Locations</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+
+                <div class="hero-content">
+                    <div class="content">
+                        <h1>Take a Voyage!</h1>
+
+                        <form class="fields">
+
+                            <div class="input-set">
+                                <label for="dept">Name <span class="text-red">*</span></label>
+                                <input type="text" placeholder="Name*" required>
+                            </div>
+
+                            <div class="input-set">
+                                <label for="dept">Email <span class="text-red">*</span></label>
+                                <input type="text" placeholder="Email*" required>
+                            </div>
+
+
+                            <div class="input-set">
+                                <label for="dept">From <span class="text-red">*</span></label>
+                                <input type="text" placeholder="From*" required>
+                            </div>
+
+                            <div class="input-set">
+                                <label for="dept">To <span class="text-red">*</span></label>
+                                <input type="text" placeholder="To*" required>
+                            </div>
+
+
+                            <div class="input-set">
+                                <label for="dept">Departure <span class="text-red">*</span></label>
+                                <input type="date" id="dept" required>
+                            </div>
+
+                            <div class="input-set">
+                                <label for="Arr">Return</label>
+                                <input type="date" id="Arr">
+                            </div>
+
+                            <button class="search-btn">Get Going</button>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /HERO -->
+
+            <!-- LOCATION  -->
+            <section class="locations">
+
+                <h2>Locations To Explore</h2>
+                <p class="location-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quasi inventore
+                    voluptates vel omnis labore
+                    delectus natus, voluptatum explicabo numquam?</p>
+
+                <div class="location-items">
+                    <div class="FirstHalf">
+
+                        <div class="items location-1 up">
+
+                            <div class="location-normal up">
+
+                                <div class="layer-top normal">
+                                    <div class="heading normal">
+                                        <h5>Porto di Venezia</h5>
+                                        <h3>Venice</h3>
+                                    </div>
+                                    <div class="outer">
+                                        <div class="tourist normal">
+                                            <span>upto</span>
+                                            <p>734K</p>
+                                            <span>Tourist</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="layer up">
+                                <div class="layer-top">
+                                    <div class="heading">
+                                        <h5>Porto di Venezia</h5>
+                                        <h3>Venice</h3>
+                                    </div>
+                                    <div class="tourist">
+                                        <span>upto</span>
+                                        <p>734K</p>
+                                        <span>Tourist</span>
+                                    </div>
+                                </div>
+                                <div class="desc">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi quisquam velit
+                                        necessitatibus
+                                        voluptates distinctio dolor?</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt placeat hic
+                                        asperiores,
+                                        animi
+                                        eius
+                                        at.</p>
+                                </div>
+                                <div class="booking-btn">
+                                    <a class="booking-btn" role="btn" href="#">BOOK NOW</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="items location-2 left">
+                            <div class="location-normal left">
+                                <div class="layer-top normal">
+                                    <div class="heading normal">
+                                        <h5>Attabad Lake in</h5>
+                                        <h3>Pakistan</h3>
+                                    </div>
+                                    <div class="outer">
+                                        <div class="tourist normal">
+                                            <span>upto</span>
+                                            <p>344K</p>
+                                            <span>Tourist</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layer left">
+                                <div class="layer-top">
+                                    <div class="heading">
+                                        <h5>Attabad Lake in</h5>
+                                        <h3>Pakistan</h3>
+                                    </div>
+                                    <div class="tourist">
+                                        <span>upto</span>
+                                        <p>344K</p>
+                                        <span>Tourist</span>
+                                    </div>
+                                </div>
+                                <div class="desc">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi quisquam velit
+                                        necessitatibus
+                                        voluptates distinctio dolor?</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt placeat hic
+                                        asperiores,
+                                        animi
+                                        eius
+                                        at.</p>
+                                </div>
+                                <div class="booking-btn">
+                                    <a class="booking-btn" role="btn" href="#">BOOK NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="SecHalf">
+                        <div class="items location-3 bottom">
+                            <div class="location-normal bottom">
+
+                                <div class="layer-top normal">
+                                    <div class="heading normal">
+                                        <h5>Boracay Island in</h5>
+                                        <h3>Philippines</h3>
+                                    </div>
+                                    <div class="outer">
+                                        <div class="tourist normal">
+                                            <span>upto</span>
+                                            <p>454K</p>
+                                            <span>Tourist</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layer bottom">
+                                <div class="layer-top">
+                                    <div class="heading">
+                                        <h5>Boracay Island in</h5>
+                                        <h3>Philippines</h3>
+                                    </div>
+                                    <div class="tourist">
+                                        <span>upto</span>
+                                        <p>454K</p>
+                                        <span>Tourist</span>
+                                    </div>
+                                </div>
+                                <div class="desc">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi quisquam velit
+                                        necessitatibus
+                                        voluptates distinctio dolor?</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt placeat hic
+                                        asperiores,
+                                        animi
+                                        eius
+                                        at.</p>
+                                </div>
+                                <div class="booking-btn">
+                                    <a class="booking-btn" role="btn" href="#">BOOK NOW</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="items location-4 right">
+                            <div class="location-normal right">
+                                <div class="layer-top normal">
+                                    <div class="heading normal">
+                                        <h5>Castaway Island in</h5>
+                                        <h3>Fiji</h3>
+                                    </div>
+                                    <div class="outer">
+                                        <div class="tourist normal">
+                                            <span>upto</span>
+                                            <p>644K</p>
+                                            <span>Tourist</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layer right">
+                                <div class="layer-top">
+                                    <div class="heading">
+                                        <h5>Castaway Island in</h5>
+                                        <h3>Fiji</h3>
+                                    </div>
+                                    <div class="tourist">
+                                        <span>upto</span>
+                                        <p>644K</p>
+                                        <span>Tourist</span>
+                                    </div>
+                                </div>
+                                <div class="desc">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi quisquam velit
+                                        necessitatibus
+                                        voluptates distinctio dolor?</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt placeat hic
+                                        asperiores,
+                                        animi
+                                        eius
+                                        at.</p>
+                                </div>
+                                <div class="booking-btn">
+                                    <a class="booking-btn" role="btn" href="#">BOOK NOW</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </section>
+            <!-- /LOCATION  -->
+
+            <!-- filler section -->
+            <section class="filler">
+                <h2>Lorem ipsum dolor sit.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, officia odio? Reprehenderit eos
+                    eligendi sint quasi? Aliquid eos consequuntur alias. Possimus, voluptate! Minima doloribus harum
+                    aliquid enim obcaecati dolores nostrum!</p>
+            </section>
+            <!-- /filler section -->
+
+            <!-- REVIEWS -->
+            <section class="reviews">
+                <div class="review-content">
+                    <h5>Already travelled with us?</h5>
+                    <h3>Leave A Review</h3>
+
+                    <form>
+
+                        <input type="text" placeholder="Your name*" required>
+
+                        <input type="email" placeholder="Email*" required>
+
+                        <textarea name="comment" id="comment" rows="7" placeholder="Share your experience"></textarea>
+
+                        <div class="rating">
+
+                            <div>Rate your experience</div>
+
+                            <div class="stars">
+                                <i class="bi bi-star rate-1"></i>
+                                <i class="bi bi-star rate-2"></i>
+                                <i class="bi bi-star rate-3"></i>
+                                <i class="bi bi-star rate-4"></i>
+                                <i class="bi bi-star rate-5"></i>
+                            </div>
+
+                        </div>
+
+
+
+                        <button class="submit">Submit</button>
+
+                    </form>
+
+                </div>
+            </section>
+            <!-- /REVIEWS -->
+
+            <!-- ABOUT -->
+            <section class="section-about">
+                <div class="about-main">
+
+                    <div class="about-content">
+                        <h3>What You need to Know</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptatibus inventore
+                            consequuntur
+                            voluptates voluptas sed nam molestias ducimus dolorem, tenetur labore impedit nemo. Pariatur
+                            sapiente
+                            impedit officiis fuga ipsam quas eius repellendus porro tenetur laudantium commodi, amet
+                            accusamus
+                            deleniti quia cum voluptate quaerat cupiditate voluptatibus odit odio eum similique saepe.
+                        </p>
+                    </div>
+
+                    <div class="about-img"></div>
+
+                </div>
+            </section>
+            <!-- /ABOUT -->
+
+            <!-- FOOTER -->
+            <footer class="footer">
+
+                <div class="footer-content">
+                    <h4>Take a Voyage</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum corporis nisi consequuntur et
+                        labore aut
+                        in aliquam officia nesciunt magnam.</p>
+                    <div class="contact">
+                        <div class="contact-items">
+                            <h5>Contact Us</h5>
+                            <div class="phone">
+                                <h6>Phone:</h6>
+                                <span>+35-567-7813546</span>
+                            </div>
+                            <div class="email">
+                                <h6>Email:</h6>
+                                <span>booktrip@book.com</span>
+                            </div>
+                        </div>
+                        <div class="social-media">
+                            <h5>Follow Us</h5>
+                            <div class="social-items">
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-twitter"></i>
+                                <i class="bi bi-instagram"></i>
+                                <i class="bi bi-youtube"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-svg">
+
+                    <svg viewBox="0 0 1320 500">
+                        <path fill-opacity="0.7" d="
+                            M0,192
+                            C220,100,440,100,660,192
+                            C880,290,1100,290,1320,192
+                            L1320 500
+                            L0 500
+                            " fill="#000" />
+                        <path fill-opacity="0.7" d="
+                            M0,192
+                            C220,100,440,100,660,192
+                            C880,290,1100,290,1320,192
+                            L1320 500
+                            L0 500
+                            " fill="#fff" />
+                        <path fill-opacity="0.7" d="
+                                    M0,192
+                            C220,100,440,100,660,192
+                            C880,290,1100,290,1320,192
+                            L1320 500
+                        L0 500
+                            " fill="#ee5253" />
+                        <path fill-opacity="0.7" d="
+                            M0,192
+                        C220,100,440,100,660,192
+                            C880,290,1100,290,1320,192
+                        L1320 500
+                        L0 500
+                        " fill="#00d2d3" />
+                    </svg>
+
+                </div>
+
+            </footer>
+            <!-- /FOOTER -->
+
+        </div>
+        <!-- /Content -->
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

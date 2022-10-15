@@ -1,0 +1,254 @@
+/* onload animation container */
+
+.wrapper {
+  position: relative;
+}
+
+.onload-animation-container,
+.website-content,
+.hero-bg-temp {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero-bg-temp {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./images/Hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 2;
+  animation-name: fadeOutAnime, displayNoneAnime;
+  animation-delay: 3s, 4s;
+  animation-duration: 1s, 0.2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards, forwards;
+}
+
+.onload-animation-container {
+  min-height: calc(100vh + 10px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(#00131080, #00131080); */
+  background: linear-gradient(#001310aa, #00131066);
+  z-index: 3;
+  animation-name: fadeAndTranslate;
+  animation-delay: 3s;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes displayNoneAnime {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes fadeOutAnime {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeAndTranslate {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+
+/* /onload animation container */
+
+.wave {
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+  margin: 0 auto 50px;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(51, 51, 51, 0.07);
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.loading h2 {
+  margin-left: 30px;
+  font-size: 50px;
+  color: #fff;
+}
+
+#_Layer_1 {
+  position: absolute;
+  min-height: 200px;
+  bottom: 10px;
+}
+#_Layer_2 {
+  position: absolute;
+  min-height: 200px;
+  bottom: 0px;
+}
+#_Layer_3 {
+  position: absolute;
+  min-height: 200px;
+  bottom: -10px;
+}
+#_Layer_4 {
+  position: absolute;
+  min-height: 200px;
+  bottom: -20px;
+  opacity: 0.3;
+}
+#_Layer_5 {
+  position: absolute;
+  min-height: 200px;
+  bottom: -30px;
+}
+
+#_Layer_4,
+#_Layer_2 {
+  animation: pathanim 3s alternate infinite linear, pathin 0.5s;
+}
+#_Layer_5,
+#_Layer_3,
+#_Layer_1 {
+  animation: pathanim 3s alternate-reverse infinite linear, pathin 0.5s;
+}
+
+@keyframes pathanim {
+  0% {
+    transform: translateX(-150px);
+  }
+  100% {
+    transform: translateX(-20px);
+  }
+}
+@keyframes pathin {
+  0% {
+    transform: translateY(1500px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.boat {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 40px;
+  left: 80px;
+  overflow: hidden;
+  animation: boatanim 1s alternate infinite linear, boatin 1.5s;
+}
+@keyframes boatanim {
+  0% {
+    transform: translateX(-10px);
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: translateX(10px);
+    transform: rotate(2deg);
+  }
+}
+@keyframes boatin {
+  0% {
+    transform: translateY(-1500px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.life-guard {
+  animation: life 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  transform-box: fill-box;
+}
+.string {
+  animation: string 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  transform-box: fill-box;
+}
+@keyframes string {
+  0% {
+    transform-origin: top left;
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform-origin: top left;
+    transform: rotate(10deg);
+  }
+}
+@keyframes life {
+  0% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(-20px);
+  }
+}
+.hand {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: -20px;
+  left: -85px;
+  animation: hand 1.5s;
+}
+.thumb {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 125px;
+  left: 45px;
+  animation: hand 1.5s;
+}
+@keyframes hand {
+  0% {
+    transform: translateY(-1500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.flag {
+  animation: flag 1.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  transform-box: fill-box;
+  transform-origin: top right;
+}
+
+@keyframes flag {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

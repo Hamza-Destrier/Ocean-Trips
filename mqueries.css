@@ -1,0 +1,698 @@
+@media screen and (min-width: 400px) {
+  .items {
+    width: 400px;
+    height: 350px;
+    margin-bottom: 50px;
+  }
+  .about-img {
+    height: 400px;
+  }
+  /*Normal*/
+
+  .location-normal {
+    height: 100%;
+  }
+  .layer-top.normal {
+    height: 100%;
+    padding: 20px;
+  }
+  .heading.normal {
+    line-height: 24px;
+    letter-spacing: 2px;
+  }
+  .layer-top.normal .heading h5 {
+    font-size: 18px;
+  }
+  .layer-top.normal .heading h3 {
+    font-size: 26px;
+  }
+  .tourist.normal {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    flex-direction: column;
+    border: 2px solid #fff;
+    text-align: center;
+  }
+  .tourist.normal p {
+    font-size: 18px;
+  }
+  .tourist.normal span {
+    font-size: 12px;
+  }
+
+  /*Normal*/
+  /*Layer*/
+
+  .layer-top {
+    padding: 20px;
+  }
+  .heading {
+    line-height: 24px;
+    letter-spacing: 2px;
+  }
+  .heading h5 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .heading h3 {
+    font-size: 26px;
+  }
+
+  .tourist {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #fff;
+  }
+  .tourist span {
+    font-size: 12px;
+  }
+  .tourist p {
+    font-size: 18px;
+  }
+  .desc {
+    padding: 10px 15px;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .booking-btn {
+    font-size: 15px;
+  }
+  /*Layer*/
+  .review-content h5 {
+    font-size: 15px;
+  }
+  .review-content h3 {
+    font-size: 28px;
+  }
+  .rating {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 510px) {
+  .footer-svg svg {
+    height: 300px;
+  }
+}
+
+
+@media screen and (max-width: 570px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar .brand {
+    text-align: center;
+  }
+  .navbar > * {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (min-width: 570px) {
+  .nav-links {
+    font-size: 16px;
+  }
+  .content h1 {
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .locations h2 {
+    font-size: 30px;
+  }
+  .items {
+    width: 550px;
+    height: 500px;
+    margin-bottom: 50px;
+  }
+  .about-img {
+    height: 500px;
+  }
+  /*Normal*/
+
+  .layer-top.normal .heading h3 {
+    font-size: 28px;
+  }
+  .tourist.normal {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #fff;
+  }
+  .tourist.normal p {
+    font-size: 20px;
+  }
+  .tourist.normal span {
+    font-size: 14px;
+  }
+
+  /*Normal*/
+  /*Layer*/
+
+  .heading h3 {
+    font-size: 28px;
+  }
+
+  .tourist {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #fff;
+  }
+  .tourist span {
+    font-size: 14px;
+  }
+  .tourist p {
+    font-size: 20px;
+  }
+  .desc {
+    padding: 30px 25px;
+    font-size: 20px;
+  }
+  .booking-btn {
+    font-size: 20px;
+  }
+
+  /*Layer*/
+
+  .about-content h3 {
+    font-size: 30px;
+  }
+  .filler > h2 {
+    font-size: 30px;
+  }
+  .footer h4 {
+    font-size: 30px;
+  }
+  .contact-items h5 {
+    font-size: 20px;
+  }
+  .contact-items h6 {
+    font-size: 16px;
+  }
+  .social-media h5 {
+    font-size: 20px;
+  }
+  .review-content h3 {
+    font-size: 30px;
+  }
+  .rating {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .nav-links {
+    width: 50%;
+    margin-left: auto;
+    font-size: 16px;
+  }
+
+  .items {
+    width: 650px;
+    height: 550px;
+  }
+  .about-img {
+    height: 550px;
+  }
+  .desc {
+    padding: 60px 30px;
+    font-size: 20px;
+  }
+  .booking-btn {
+    font-size: 20px;
+  }
+
+  .contact-items h5 {
+    font-size: 25px;
+  }
+  .contact-items h6 {
+    font-size: 18px;
+  }
+  .social-media h5 {
+    font-size: 25px;
+  }
+  .social-items {
+    font-size: 30px;
+  }
+  .footer-svg svg {
+    height: 350px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .nav-links {
+    width: 45%;
+  }
+  .content h1 {
+    font-size: 50px;
+  }
+  .fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .fields button {
+    display: grid;
+    grid-column: 1 / -1;
+  }
+
+  .locations h2 {
+    font-size: 35px;
+  }
+  .FirstHalf,
+  .SecHalf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .items {
+    width: 400px;
+    height: 350px;
+    margin-bottom: 20px;
+  }
+  .about-img {
+    height: 600px;
+  }
+  /*Normal*/
+  .layer-top.normal .heading h5 {
+    font-size: 15px;
+  }
+  .layer-top.normal .heading h3 {
+    font-size: 24px;
+  }
+  .tourist.normal {
+    width: 65px;
+    height: 65px;
+  }
+  .tourist.normal p {
+    font-size: 15px;
+  }
+  .tourist.normal span {
+    font-size: 11px;
+  }
+
+  /*Normal*/
+  /*Layer*/
+
+  .heading h3 {
+    font-size: 24px;
+  }
+  .heading h5 {
+    font-size: 15px;
+  }
+
+  .tourist {
+    width: 65px;
+    height: 65px;
+  }
+  .tourist span {
+    font-size: 11px;
+  }
+  .tourist p {
+    font-size: 15px;
+  }
+  .desc {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+  .booking-btn {
+    font-size: 15px;
+  }
+
+  /*Layer*/
+
+  .about-content h3 {
+    font-size: 35px;
+  }
+  .filler > h2 {
+    font-size: 35px;
+  }
+  .footer h4 {
+    font-size: 35px;
+  }
+  .contact {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .contact-items h5 {
+    font-size: 25px;
+  }
+  .contact-items h6 {
+    font-size: 18px;
+  }
+  .social-media h5 {
+    font-size: 25px;
+  }
+  .review-content form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .review-content form textarea {
+    grid-column: 1 / -1;
+  }
+  .rating {
+    font-size: 18px;
+    grid-column: 1 / -1;
+  }
+  .submit {
+    grid-column: 1 / -1;
+  }
+  .review-content h5 {
+    font-size: 18px;
+  }
+  .review-content h3 {
+    font-size: 35px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .FirstHalf,
+  .SecHalf {
+    gap: 50px;
+  }
+  .items {
+    margin-bottom: 50px;
+  }
+  .about-img {
+    height: 550px;
+  }
+  .footer-svg svg {
+    height: 400px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .FirstHalf,
+  .SecHalf {
+    gap: 30px;
+  }
+  .nav-links {
+    width: 40%;
+  }
+  .items {
+    width: 480px;
+    height: 400px;
+    margin-bottom: 30px;
+  }
+  /*Layer*/
+  .location-desc,
+  .filler p,
+  .about-content p,
+  .footer p {
+    font-size: 17px;
+  }
+
+  .tourist span {
+    font-size: 12px;
+  }
+  .desc {
+    padding: 30px 15px;
+    font-size: 15px;
+  }
+  .booking-btn {
+    font-size: 15px;
+  }
+  /*Layer*/
+  .contact {
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+  .footer-svg svg {
+    height: 800px;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .nav-links {
+    width: 30%;
+  }
+  .FirstHalf,
+  .SecHalf {
+    gap: 40px;
+  }
+  .items {
+    width: 550px;
+    height: 450px;
+    margin-bottom: 40px;
+  }
+  /*Normal*/
+
+  .layer-top.normal .heading h5 {
+    font-size: 18px;
+  }
+  .layer-top.normal .heading h3 {
+    font-size: 28px;
+  }
+  .tourist.normal {
+    width: 80px;
+    height: 80px;
+  }
+  .tourist.normal p {
+    font-size: 20px;
+  }
+  .tourist.normal span {
+    font-size: 14px;
+  }
+
+  /*Normal*/
+
+  /*Layer*/
+
+  .heading h5 {
+    font-size: 18px;
+  }
+  .heading h3 {
+    font-size: 28px;
+  }
+  .tourist {
+    width: 80px;
+    height: 80px;
+  }
+  .tourist span {
+    font-size: 14px;
+  }
+  .tourist p {
+    font-size: 20px;
+  }
+  .desc {
+    text-align: center;
+    padding: 30px 15px;
+    font-size: 18px;
+  }
+  .booking-btn {
+    font-size: 18px;
+  }
+  /*Layer*/
+
+  .about-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .about-content,
+  .about-img {
+    flex: 1;
+    flex-basis: 50%;
+    width: 50%;
+  }
+
+  .about-content {
+    text-align: start;
+    padding: 0 10%;
+  }
+
+  .about-content p {
+    padding: 0px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .nav-links {
+    width: 25%;
+  }
+  .FirstHalf,
+  .SecHalf {
+    gap: 30px;
+  }
+  .items {
+    width: 650px;
+    height: 550px;
+    margin-bottom: 30px;
+  }
+
+  /*Layer*/
+  .desc {
+    text-align: center;
+    padding: 50px 25px;
+    font-size: 20px;
+  }
+  .booking-btn {
+    font-size: 20px;
+  }
+  /*Layer*/
+  .about-content {
+    width: 700px;
+  }
+  .about-img {
+    width: 650px;
+    height: 550px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .nav-links {
+    width: 25%;
+  }
+  .location-items {
+    flex-direction: row;
+    gap: 30px;
+  }
+  .FirstHalf,
+  .SecHalf {
+    gap: 30px;
+  }
+  .items {
+    width: 350px;
+    height: 300px;
+    margin-bottom: 30px;
+  }
+
+  /*Normal*/
+
+  .layer-top.normal .heading h3 {
+    font-size: 24px;
+  }
+  .layer-top.normal .heading h5 {
+    font-size: 16px;
+  }
+  .tourist.normal {
+    width: 60px;
+    height: 60px;
+  }
+  .tourist.normal p {
+    font-size: 15px;
+  }
+  .tourist.normal span {
+    font-size: 11px;
+  }
+
+  /*Normal*/
+  /*Layer*/
+
+  .heading h3 {
+    font-size: 24px;
+  }
+  .heading h5 {
+    font-size: 16px;
+  }
+  .tourist {
+    width: 60px;
+    height: 60px;
+  }
+  .tourist span {
+    font-size: 11px;
+  }
+  .tourist p {
+    font-size: 15px;
+  }
+  .desc {
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .booking-btn {
+    font-size: 14px;
+  }
+
+  /*Layer*/
+  .about-content {
+    width: 700px;
+  }
+  .about-img {
+    width: 700px;
+    height: 600px;
+  }
+  .contact {
+    padding-top: 60px;
+  }
+  .footer-svg svg {
+    height: 800px;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .nav-links {
+    width: 20%;
+  }
+  .FirstHalf,
+  .SecHalf {
+    gap: 30px;
+  }
+  .items {
+    width: 400px;
+    height: 380px;
+    margin-bottom: 30px;
+  }
+
+  /*Normal*/
+
+  .layer-top.normal .heading h3 {
+    font-size: 26px;
+  }
+  .layer-top.normal .heading h5 {
+    font-size: 18px;
+  }
+  .tourist.normal {
+    width: 70px;
+    height: 70px;
+  }
+  .tourist.normal p {
+    font-size: 18px;
+  }
+  .tourist.normal span {
+    font-size: 12px;
+  }
+
+  /*Normal*/
+  /*Layer*/
+
+  .heading h3 {
+    font-size: 26px;
+  }
+  .heading h5 {
+    font-size: 18px;
+  }
+  .tourist {
+    width: 70px;
+    height: 70px;
+  }
+  .tourist span {
+    font-size: 12px;
+  }
+  .tourist p {
+    font-size: 18px;
+  }
+  .desc {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  .booking-btn {
+    font-size: 16px;
+  }
+
+  /*Layer*/
+  .about-img {
+    width: 900px;
+    height: 700px;
+  }
+}
