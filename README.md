@@ -3,4 +3,5 @@
 ![Screenshot 2022-10-11 at 06-25-16 Ocean-Trips](https://user-images.githubusercontent.com/104522504/196457705-44c19c82-dff5-4ab4-a096-04b21b91b36b.png)
 # Ocean-Trips
  Vist the following link
- https://ahmerhassan254.github.io/Ocean-Trips/
+ https://hamza-destrier.github.io/Ocean-Trips/
+ 
